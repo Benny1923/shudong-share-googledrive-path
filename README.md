@@ -1,15 +1,15 @@
 樹洞外鏈 Google drive 模組
 ===
-作者我練習php及google-api-clien出現的產物
-僅作為練習而已，穩定度並沒有經過完整的測試
-只能說是能用而已
+作者我練習php及google-api-clien出現的產物  
+僅作為練習而已，穩定度並沒有經過完整的測試  
+只能說是能用而已  
 正常操作下是不會發生錯誤的
 
 需求
 ---
-Apache rewrite_mod
-php_openssl
-以及樹洞外鏈的需求
+Apache rewrite_mod  
+php_openssl  
+以及樹洞外鏈的需求  
 [google-api-php-client](https://github.com/google/google-api-php-client) 2.2.0(TESTED)
 
 ###### 非強制
