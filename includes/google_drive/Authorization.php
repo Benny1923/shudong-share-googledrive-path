@@ -41,13 +41,6 @@ class Google_Auth {
         $this->client->fetchAccessTokenWithRefreshToken($this->client->getRefreshToken());
         return $this->client->getAccessToken();
     }
-    private function playground() {
-        $cc=new Google_Client();
-        $cc->isAccessTokenExpired();
-        $cc->setAccessToken();
-        $sc=new Google_Service_Drive($cc);
-        $sc->files;
-    }
 }
 
 ?>
